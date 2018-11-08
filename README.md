@@ -1,5 +1,8 @@
 # find-my-iphone
 
+# Fork Edit Info
+Added Cookie storage due to Apple's 2FA feature. Allows you to generate an in-app password and use that as the icloud.cookieFileStorage. Cookie value lasts up to 30 days
+
 A Node module to interact with iCloud to do the following:
 
 1. Get the latitude / longitude of an iCloud device
