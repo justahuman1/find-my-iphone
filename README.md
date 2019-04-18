@@ -1,3 +1,7 @@
+# Fork Edit Info
+Added Cookie storage due to Apple's 2FA feature. Allows you to generate an in-app password and use that as the icloud.cookieFileStorage. Cookie value lasts up to 30 days
+
+
 # find-my-iphone
 
 A Node module to interact with iCloud to do the following:
@@ -97,8 +101,6 @@ find(email,password[,label[,callback]])
  * label (optional): The label of the phone you want to alert (iCloud accounts may have multiple devices). The label can be found under "All Devices" in the Find My iPhone app. If there are multiple phones with the same label, the last one matching will be alerted. You should rename devices to be unique.
  * callback (optional): A function to execute when the phone has been alerted
  
-# Fork Edit Info
-Added Cookie storage due to Apple's 2FA feature. Allows you to generate an in-app password and use that as the icloud.cookieFileStorage. Cookie value lasts up to 30 days
 
 
  
