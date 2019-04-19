@@ -475,7 +475,7 @@ var findmyphone = {
 		var googleUrl = "https://maps.googleapis.com/maps/api/geocode/json" +
 			"?latlng=%d,%d&sensor=true";
 
-		if (process.env.Google_Maps_API_Key) {
+		if(process.env.Google_Maps_API_Key){
 			googleUrl += "&key=" + process.env.Google_Maps_API_Key
 		}
 
@@ -508,7 +508,7 @@ var findmyphone = {
 
 			if (process.env.Google_Maps_API_Key) {
 				googleUrl += "&key=" + process.env.Google_Maps_API_Key
-			}   
+			}   
 					
 			googleUrl =
 				util.format(googleUrl, myLatitude, myLongitude,
