@@ -5,7 +5,7 @@ var assert = require("assert");
 describe('Logged in: ', function() {
 	var device;
 
-	before(function(done) {
+	before(function(done){
 		this.timeout(30000);
 
 		if (!process.env.hasOwnProperty("apple_id")) {
@@ -65,7 +65,7 @@ describe('Logged in: ', function() {
 		});
 	});
 
-	it('should alert with legacy api', function() {
+	it('should alert with legacy api', function(){
 		this.timeout(30000);
 		var find = require('./index');
 		it('should send legacy alert', function(done) {
